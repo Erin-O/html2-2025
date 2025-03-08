@@ -1,0 +1,69 @@
+@media only screen and (max-width: 600px){
+    background-color: lightblue;}
+
+html,body {
+  min-width: 290px;
+  color: #2d4343;
+  background-color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+}
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(46, 100, 226, 0.4);
+  }
+  header {
+    color: rgb(69, 112, 180);
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: thin;
+  }
+  #main-doc header {
+    text-align: left;
+    margin: 0px;
+  }
+  
+  #navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  #navbar li {
+    color: #618bbf;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+  }
+  
+  #navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: #3b5b74;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #main-doc {
+    position: absolute;
+    margin-left: 330px;
+    padding: 20px;
+    margin-bottom: 110px;
+    
+  }
+  code {
+    color:#618bbf;
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+  }
+  
