@@ -3,6 +3,7 @@ body{
     margin-left:40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 h1{
-    color:rgb(172, 195, 210);
+    color:rgb(180, 230, 238);
+    font-size: 36pt;
 }
-main h2,h3,a{color:rgb(197, 176, 210)}
+main h2,h3,a{color:rgb(64, 72, 113)}
